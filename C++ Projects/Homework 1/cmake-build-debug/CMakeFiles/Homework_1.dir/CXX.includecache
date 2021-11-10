@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/main.cpp
+iostream
+-
+ctime
+-
+
