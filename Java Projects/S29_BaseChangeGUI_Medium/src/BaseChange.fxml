@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BaseChangeController">
+   <children>
+      <Label fx:id="titleBar" alignment="CENTER" layoutX="26.0" layoutY="28.0" prefHeight="59.0" prefWidth="355.0" text="Base Change GUI" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="valueField" layoutX="27.0" layoutY="148.0" prefHeight="44.0" prefWidth="355.0" promptText="Enter value here!" />
+      <Slider fx:id="currBaseSlider" blockIncrement="1.0" layoutX="27.0" layoutY="238.0" max="32.0" min="2.0" prefHeight="26.0" prefWidth="317.0" value="10.0" />
+      <Slider fx:id="desBaseSlider" blockIncrement="1.0" layoutX="27.0" layoutY="305.0" max="32.0" min="2.0" prefHeight="26.0" prefWidth="318.0" value="10.0" />
+      <Label fx:id="valueFieldLabel" layoutX="27.0" layoutY="110.0" prefHeight="37.0" prefWidth="355.0" text="Enter your value in the field below:" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="currBaseSliderLabel" layoutX="27.0" layoutY="200.0" prefHeight="38.0" prefWidth="355.0" text="Use this slider to select the current base" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="desBaseSliderLabel" layoutX="27.0" layoutY="272.0" prefHeight="26.0" prefWidth="362.0" text="Use this slider to select the desired base of your output" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="outputField" layoutX="27.0" layoutY="432.0" prefHeight="44.0" prefWidth="355.0" promptText="Output will show here!" />
+      <Label fx:id="outputLabel" layoutX="27.0" layoutY="392.0" prefHeight="38.0" prefWidth="355.0" text="Output:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="calcButton" layoutX="149.0" layoutY="353.0" mnemonicParsing="false" onAction="#pressCalc" prefHeight="38.0" prefWidth="118.0" text="Calculate">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="currSliderValue" alignment="CENTER" layoutX="355.0" layoutY="238.0" prefHeight="26.0" prefWidth="26.0" text="10" />
+      <Label fx:id="desSliderValue" alignment="CENTER" layoutX="355.0" layoutY="305.0" prefHeight="26.0" prefWidth="26.0" text="10" />
+   </children>
+</AnchorPane>

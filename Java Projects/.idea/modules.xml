@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/21-14_PostFixEval_Hard/21-14_PostFixEval_Hard.iml" filepath="$PROJECT_DIR$/21-14_PostFixEval_Hard/21-14_PostFixEval_Hard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/28_18_Blackjack_Hard/28_18_Blackjack_Hard.iml" filepath="$PROJECT_DIR$/28_18_Blackjack_Hard/28_18_Blackjack_Hard.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java Projects.iml" filepath="$PROJECT_DIR$/.idea/Java Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S10_ArabicToRomanGUI_Hard/S10_ArabicToRomanGUI_Hard.iml" filepath="$PROJECT_DIR$/S10_ArabicToRomanGUI_Hard/S10_ArabicToRomanGUI_Hard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S24_AmazonOrderProcessing_Hard/S24_AmazonOrderProcessing_Hard.iml" filepath="$PROJECT_DIR$/S24_AmazonOrderProcessing_Hard/S24_AmazonOrderProcessing_Hard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S29_BaseChangeGUI_Medium/S29_BaseChangeGUI_Medium.iml" filepath="$PROJECT_DIR$/S29_BaseChangeGUI_Medium/S29_BaseChangeGUI_Medium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S36_Thanksgiving_Hard/S36_Thanksgiving_Hard.iml" filepath="$PROJECT_DIR$/S36_Thanksgiving_Hard/S36_Thanksgiving_Hard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S4_ChangeComputation_Med/S4_ChangeComputation_Med.iml" filepath="$PROJECT_DIR$/S4_ChangeComputation_Med/S4_ChangeComputation_Med.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S5_Scoreboard_Hard/S5_Scoreboard_Hard.iml" filepath="$PROJECT_DIR$/S5_Scoreboard_Hard/S5_Scoreboard_Hard.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestJava/TestJava.iml" filepath="$PROJECT_DIR$/TestJava/TestJava.iml" />
     </modules>
   </component>

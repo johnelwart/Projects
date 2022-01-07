@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Homework_1">
-				<Option output="C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Homework_1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug"/>
+				<Option output="C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Homework_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_1"/>
-					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_1"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Homework_1/fast">
-				<Option output="C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Homework_1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug"/>
+				<Option output="C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Homework_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,37 +53,37 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_1/fast"/>
-					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_1/fast"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/main.cpp">
+		<Unit filename="C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/main.cpp">
 			<Option target="Homework_1"/>
 		</Unit>
-		<Unit filename="C:/Users/johne/Documents/U of Iowa/Spring2021/ENGR-2730/jelwart/homework/Homework 1/CMakeLists.txt">
+		<Unit filename="C:/Users/johne/Documents/ProjectsRepo/Projects/C++ Projects/Homework 1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
