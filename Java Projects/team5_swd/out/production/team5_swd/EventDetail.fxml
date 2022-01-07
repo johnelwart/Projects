@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="javafx.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EventDetailController">
+   <children>
+      <Line endX="12.0" endY="686.0" layoutX="628.0" layoutY="28.0" startX="12.0" startY="-8.599987983703613" />
+      <Label fx:id="detailsLabel" layoutX="130.0" layoutY="44.0" prefHeight="30.0" prefWidth="210.0" text="Event details">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="attendeesLabel" layoutX="654.0" layoutY="14.0" prefHeight="30.0" prefWidth="210.0" text="Attendees">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ListView fx:id="attendeesList" layoutX="665.0" layoutY="44.0" prefHeight="649.0" prefWidth="588.0" />
+      <TextField fx:id="nameField" layoutX="209.0" layoutY="94.0" prefHeight="30.0" prefWidth="324.0" />
+      <TextField fx:id="capacityField" layoutX="209.0" layoutY="262.0" prefHeight="30.0" prefWidth="202.0" />
+      <TextField fx:id="locationField" layoutX="209.0" layoutY="134.0" prefHeight="30.0" prefWidth="324.0" />
+      <Button fx:id="saveButton" layoutX="224.0" layoutY="529.0" mnemonicParsing="false" onAction="#saveButtonPressed" prefHeight="46.0" prefWidth="114.0" text="Save event" />
+      <Label fx:id="NameLabel" layoutX="130.0" layoutY="94.0" prefHeight="30.0" prefWidth="50.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="CapacityLabel" layoutX="130.0" layoutY="261.0" prefHeight="30.0" prefWidth="70.0" text="Capacity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="TimeLabel" layoutX="130.0" layoutY="213.0" prefHeight="30.0" prefWidth="50.0" text="Time">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="LocationLabel" layoutX="130.0" layoutY="134.0" prefHeight="30.0" prefWidth="69.0" text="Location">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="PrecautionLabel" layoutX="130.0" layoutY="326.0" prefHeight="30.0" prefWidth="232.0" text="Covid-19 Precautions">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="hoursField" initialValue="1" layoutX="209.0" layoutY="215.0" max="12" min="1" prefHeight="26.0" prefWidth="61.0" />
+      <Spinner fx:id="minutesField" initialValue="0" layoutX="287.0" layoutY="215.0" max="59" min="0" prefHeight="26.0" prefWidth="61.0" />
+      <Label fx:id="colonLabel" alignment="CENTER" layoutX="270.0" layoutY="215.0" prefHeight="26.0" prefWidth="11.0" text=":" translateX="4.0" />
+      <MenuButton fx:id="ampmSelection" layoutX="365.0" layoutY="215.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="61.0" text="AM">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#amSelected" text="AM" />
+          <MenuItem mnemonicParsing="false" onAction="#pmSelected" text="PM" />
+        </items>
+      </MenuButton>
+      <DatePicker fx:id="dateSelection" layoutX="211.0" layoutY="175.0" prefHeight="26.0" prefWidth="215.0" />
+      <Label fx:id="dateLabel" layoutX="130.0" layoutY="175.0" prefHeight="26.0" prefWidth="70.0" text="Date">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="maskCheck" layoutX="206.0" layoutY="367.0" mnemonicParsing="false" onAction="#maskIsChecked" prefHeight="30.0" prefWidth="191.0" text="Mask required">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="boosterCheck" layoutX="205.0" layoutY="457.0" mnemonicParsing="false" onAction="#boosterIsChecked" prefHeight="30.0" prefWidth="191.0" text="Booster required">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="testCheck" layoutX="205.0" layoutY="427.0" mnemonicParsing="false" onAction="#testIsChecked" prefHeight="30.0" prefWidth="191.0" text="Negative test required">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="vaxCheck" layoutX="205.0" layoutY="397.0" mnemonicParsing="false" onAction="#vaxIsChecked" prefHeight="30.0" prefWidth="191.0" text="Vaccine required">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="deleteButton" layoutX="224.0" layoutY="590.0" mnemonicParsing="false" onAction="#deleteEventButtonPressed" prefHeight="46.0" prefWidth="114.0" text="Delete event" />
+      <Button fx:id="backbutton" layoutX="223.0" layoutY="529.0" mnemonicParsing="false" onAction="#backButtonPressed" prefHeight="46.0" prefWidth="114.0" text="Back" visible="false" />
+   </children>
+</AnchorPane>
