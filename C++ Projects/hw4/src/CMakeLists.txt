@@ -3,9 +3,9 @@ project(Xonix)
 
 set(CMAKE_CXX_STANDARD 11)
 
-configure_file(images/enemy.png images/enemy.png COPYONLY)
-configure_file(images/gameover.png images/gameover.png COPYONLY)
-configure_file(images/tiles.png images/tiles.png COPYONLY)
+configure_file(../images/enemy.png ../images/enemy.png COPYONLY)
+configure_file(../images/gameover.png ../images/gameover.png COPYONLY)
+configure_file(../images/tiles.png ../images/tiles.png COPYONLY)
 
 # Define sources and executable
 set(EXECUTABLE_NAME "Xonix")

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/C++ Projects.iml" filepath="$PROJECT_DIR$/.idea/C++ Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/C++ Projects2.iml" filepath="$PROJECT_DIR$/.idea/C++ Projects2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Xonix.iml" filepath="$PROJECT_DIR$/.idea/Xonix.iml" />
     </modules>
   </component>

@@ -3,13 +3,13 @@ project(Xonix)
 
 set(CMAKE_CXX_STANDARD 11)
 
-configure_file(images/enemy.png images/enemy.png COPYONLY)
-configure_file(images/gameover.png images/gameover.png COPYONLY)
-configure_file(images/tiles.png images/tiles.png COPYONLY)
-configure_file(sounds/arcade_game_fall_tone_001.flac sounds/arcade_game_fall_tone_001.flac COPYONLY)
-configure_file(sounds/Average-Patrick-Patrikios.flac sounds/Average-Patrick-Patrikios.flac COPYONLY)
-configure_file(sounds/Lose-Life-1.flac sounds/Lose-Life-1.flac COPYONLY)
-configure_file(fonts/ArcadeClassic.ttf fonts/ArcadeClassic.ttf COPYONLY)
+configure_file(../images/enemy.png ../images/enemy.png COPYONLY)
+configure_file(../images/gameover.png ../images/gameover.png COPYONLY)
+configure_file(../images/tiles.png ../images/tiles.png COPYONLY)
+configure_file(../sounds/arcade_game_fall_tone_001.flac ../sounds/arcade_game_fall_tone_001.flac COPYONLY)
+configure_file(../sounds/Average-Patrick-Patrikios.flac ../sounds/Average-Patrick-Patrikios.flac COPYONLY)
+configure_file(../sounds/Lose-Life-1.flac ../sounds/Lose-Life-1.flac COPYONLY)
+configure_file(../fonts/ArcadeClassic.ttf ../fonts/ArcadeClassic.ttf COPYONLY)
 
 # Define sources and executable
 set(EXECUTABLE_NAME "Xonix")
