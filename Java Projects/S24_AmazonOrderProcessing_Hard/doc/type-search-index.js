@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"AmazonProcessingTest"},{"p":"<Unnamed>","l":"Buffer"},{"p":"<Unnamed>","l":"DeliveryTruck"},{"p":"<Unnamed>","l":"printInfo"},{"p":"<Unnamed>","l":"Section"},{"p":"<Unnamed>","l":"ShippingCenter"},{"p":"<Unnamed>","l":"ShippingDock"},{"p":"<Unnamed>","l":"WebServer"}];updateSearchResults();
