@@ -12,7 +12,138 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0d3c1f7-9f09-4652-9280-b80d83c6e59c" name="Default Changelist" comment="Deleted TestC++ project" />
+    <list default="true" id="f0d3c1f7-9f09-4652-9280-b80d83c6e59c" name="Default Changelist" comment="Deleted TestC++ project">
+      <change afterPath="$PROJECT_DIR$/.idea/CIE Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/Homework_1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/Homework_1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/Homework_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/Homework_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/Matrix.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/Matrix.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Homework_2.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/Homework_2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/Homework_2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/Homework_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/Homework_2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_2/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/Chair.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/Chair.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/Classroom.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/Classroom.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/Student.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/Student.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/CMakeFiles/homework_3.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/homework_3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/homework_3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/cmake-build-debug/homework_3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/cmake-build-debug/homework_3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/src/AJB_E105.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/AJB_E105.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/src/CB_W55.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/CB_W55.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/src/VAN_LR2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/VAN_LR2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_3/src/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/student.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/Xonix.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/Xonix.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/Xonix.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/Xonix.exe" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/Xonix.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw5/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWD Projects/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SWD Projects/.idea/modules.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +152,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -58,18 +188,13 @@
       <recent name="C:\Users\johne\Documents\ProjectsRepo\Projects\C++ Projects\hw4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.Xonix">
-    <configuration name="Homework_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Homework_1" TARGET_NAME="Homework_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Homework_1" RUN_TARGET_NAME="Homework_1">
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xonix" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Homework_1" RUN_TARGET_NAME="Xonix" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Xonix" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Xonix" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,10 +204,6 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="CMake Application.Xonix" />
-      <item itemvalue="CMake Application.Homework_1" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -104,6 +225,11 @@
       <workItem from="1641574006708" duration="31000" />
       <workItem from="1641574047176" duration="50000" />
       <workItem from="1641574126398" duration="1009000" />
+      <workItem from="1641781395032" duration="25000" />
+      <workItem from="1641781826553" duration="22000" />
+      <workItem from="1641781863974" duration="372000" />
+      <workItem from="1641782248775" duration="22000" />
+      <workItem from="1641782279490" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="CIE files added to repo">
       <created>1636520305487</created>

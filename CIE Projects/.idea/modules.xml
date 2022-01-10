@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../CIE Projects/.idea/C++ Projects.iml" filepath="$PROJECT_DIR$/../CIE Projects/.idea/C++ Projects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/C++ Projects2.iml" filepath="$PROJECT_DIR$/.idea/C++ Projects2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../CIE Projects/.idea/Xonix.iml" filepath="$PROJECT_DIR$/../CIE Projects/.idea/Xonix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CIE Projects.iml" filepath="$PROJECT_DIR$/.idea/CIE Projects.iml" />
     </modules>
   </component>
 </project>
