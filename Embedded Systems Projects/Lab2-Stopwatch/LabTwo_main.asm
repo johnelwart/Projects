@@ -4,25 +4,24 @@
 ; Author: John Elwart and Tucker Dickson
 ;
 
-/*  Registers being used:
-
-	R16 - Holds the value for the right display
-	R17 - Status register
-	R18 - Holds the value for the left display
-	R19 - Determine if the stopwatch runs, toggled by the button (0 for pause, 1 for run)
-	R20 - Determines which mode the stopwatch is currently in (0 for 0.0, 1 for 0 0)
-	R21 - Decrement for debounce hold loop
-	R22 - 
-	R23 - Counter for the outer loop in delay 1ms and 10ms subroutine
-	R24 - Counter for the middle loop in delay 1ms and 10ms subroutine
-	R25 - Counter for the inner loop in delay 1ms and 10ms subroutine
-	R26 - Keeps track of zeroes in debounce subroutines
-	R27 - Keeps track of ones in debounce subroutines
-	R28 - Decrement for debounce subroutine loop
-	R29 - Decrement for the delay 100ms  subroutine loop
-	R30 - Decrement for the delay 1s subroutine loop
-	R31 -
-*/
+;  Registers being used:
+;
+;	R16 - Holds the value for the right display
+;	R17 - Status register
+;	R18 - Holds the value for the left display
+;	R19 - Determine if the stopwatch runs, toggled by the button (0 for pause, 1 for run)
+;	R20 - Determines which mode the stopwatch is currently in (0 for 0.0, 1 for 0 0)
+;	R21 - Decrement for debounce hold loop
+;	R22 - 
+;	R23 - Counter for the outer loop in delay 1ms and 10ms subroutine
+;	R24 - Counter for the middle loop in delay 1ms and 10ms subroutine
+;	R25 - Counter for the inner loop in delay 1ms and 10ms subroutine
+;	R26 - Keeps track of zeroes in debounce subroutines
+;	R27 - Keeps track of ones in debounce subroutines
+;	R28 - Decrement for debounce subroutine loop
+;	R29 - Decrement for the delay 100ms  subroutine loop
+;	R30 - Decrement for the delay 1s subroutine loop
+;	R31 -
 
 ; Outputs
 sbi DDRB,0		; SER
