@@ -30,7 +30,10 @@ sbi DDRB,2		; RCLK
 
 ; Inputs
 cbi DDRB,3		; Button 1
-cbi DDRB,4      ; Button 2
+sbi PINB,3
+
+cbi DDRB,4      	; Button 2
+sbi PINB,4
 
 ; Load R16 with zero initially and set the on/off toggle to 0
 ldi R16, 0b00111111
@@ -267,7 +270,7 @@ blinkAtEnd:
 
 ; Subroutine to display values in R16 and R18 to the displays
 display:
-	sbrc R20, 0            ; If mode 2 is selected, the MSB of R18 is cleared to get rid of the decimal place
+	sbrc R20, 0                 ; If mode 2 is selected, the MSB of R18 is cleared to get rid of the decimal place
 	cbr R18, 0b10000000
 
 	push R18   
@@ -276,18 +279,18 @@ display:
 	in R17, SREG
 	push R17
 
-	ldi R17, 8             ; Loop --> test all 8 bits
+	ldi R17, 8                  ; Loop --> test all 8 bits
 
 ; Second 7-segment display
 loop1:
-	rol R18                ; Rotate left trough Carry
-	BRCS set_ser_in_2      ; Branch if Carry is set
+	rol R18                     ; Rotate left trough Carry
+	BRCS set_ser_in_2           ; Branch if Carry is set
 	
-	cbi PORTB,0            ; Setting SER to 0
+	cbi PORTB,0                 ; Setting SER to 0
 	rjmp end1
 
 set_ser_in_2:
-	sbi PORTB,0            ; Setting SER to 1
+	sbi PORTB,0                 ; Setting SER to 1
 	
 end1:
 	; Generating SRCLK pulse
@@ -303,18 +306,18 @@ end1:
 	brne loop1
 
 
-	ldi R17, 8             ; Loop --> test all 8 bits
+	ldi R17, 8                  ; Loop --> test all 8 bits
 
 ; First 7-segment display
 loop:
-	rol R16                ; Rotate left trough Carry
-	BRCS set_ser_in_1      ; Branch if Carry is set
+	rol R16                     ; Rotate left trough Carry
+	BRCS set_ser_in_1           ; Branch if Carry is set
 	
-	cbi PORTB,0            ; Setting SER to 0
+	cbi PORTB,0                 ; Setting SER to 0
 	rjmp end
 
 set_ser_in_1:
-	sbi PORTB,0            ; Setting SER to 1
+	sbi PORTB,0                 ; Setting SER to 1
 
 end:
 	; Generating SRCLK pulse
@@ -360,37 +363,37 @@ debounce1:
 		sbic PINB,3		        ; Skip next line if I\O register is cleared (button pushed)
 		inc R27			        ; Increment ones counter
 
-		rcall delay_1ms         ; Calls the 10ms delay subroutine
+		rcall delay_1ms                 ; Calls the 10ms delay subroutine
 
-		dec R28                 ; Decrements R28 representing the loop running 1 time
-		brne dbLoop                ; Returns to beginning of loop if [R28] > 0
+		dec R28                         ; Decrements R28 representing the loop running 1 time
+		brne dbLoop                     ; Returns to beginning of loop if [R28] > 0
 
-	cp R27,R26                  ; Compares R26 (zeroes) and R27 (ones)
-	brlo skipToEnd1             ; Only executes if Rd (R27) < Rr (R26)
+	cp R27,R26                              ; Compares R26 (zeroes) and R27 (ones)
+	brlo skipToEnd1                         ; Only executes if Rd (R27) < Rr (R26)
+ 
+	buttonOnePressed:                       ; Subroutine to execute the action on a button press more reliably
+	sbis PINB, 3                            ; Skip next line if I\O register is set (button not pushed)
+	sbic PINB, 3                            ; Skip next line if I\O register is cleared (button pushed)
+	rjmp buttonOnePressed                   ; Jumps back to start of subroutine
 
-	buttonOnePressed:           ; Subroutine to execute the action on a button press more reliably
-	sbis PINB, 3                ; Skip next line if I\O register is set (button not pushed)
-	sbic PINB, 3                ; Skip next line if I\O register is cleared (button pushed)
-	rjmp buttonOnePressed       ; Jumps back to start of subroutine
+	cpi R19, 0                              ; Compares R19 to 0
+	breq setBit1                            ; Branches to setBit1 if the condition is true
 
-	cpi R19, 0                  ; Compares R19 to 0
-	breq setBit1                ; Branches to setBit1 if the condition is true
-
-	ldi R19, 0                  ; If the condition is false, load 0 to R19
-	rjmp start                  ; Jumps back to start
+	ldi R19, 0                              ; If the condition is false, load 0 to R19
+	rjmp start                              ; Jumps back to start
 
 	setBit1:
-		ldi R19, 1              ; Loads 1 into R19
+		ldi R19, 1                      ; Loads 1 into R19
 
 	skipToEnd1:
-		rjmp start              ; Returns to main
+		rjmp start                      ; Returns to main
 
 ; Debounce sub routine button two (reset)
 debounce2:
 	ldi R26,0			        ; Register that keeps track of zeroes (button not pressed)
 	ldi R27,0			        ; Register that keeps track of ones (button pressed)
 	ldi R28,10			        ; Decrement for press loop
-	ldi R21,100                 ; Decrement for press and hold loop
+	ldi R21,100                             ; Decrement for press and hold loop
 
 	dbLoop2:
 		sbis PINB,4		        ; Skip next line if I\O register is set (button pushed)
@@ -399,78 +402,78 @@ debounce2:
 		sbic PINB,4		        ; Skip next line if I\O register is cleared (button not pushed)
 		inc R27			        ; Increment ones counter
 
-		rcall delay_1ms         ; Calls the 10ms delay subroutine
+		rcall delay_1ms                 ; Calls the 10ms delay subroutine
 
-		dec R28                 ; Decrements R28 representing the loop running 1 time
-		brne dbLoop2                ; Returns to beginning of loop if [R28] > 0
+		dec R28                         ; Decrements R28 representing the loop running 1 time
+		brne dbLoop2                    ; Returns to beginning of loop if [R28] > 0
 
-	cp R26,R27                  ; Compares R26 (zeroes) and R27 (ones)
-	brlo skipToEnd2                  ; Only executes if Rd (R27) < Rr (R26)
+	cp R26,R27                              ; Compares R26 (zeroes) and R27 (ones)
+	brlo skipToEnd2                         ; Only executes if Rd (R27) < Rr (R26)
 
 	dbLoop2Hold:
 
 		sbic PINB,4		        ; Skip next line if I\O register is cleared (button pushed)
-		rjmp buttonTwoPressed	; Jump to buttonTwoPressed subroutine if the button is released before the
-		                        ; hold loop finishes executing
-		rcall delay             ; Calls the 10ms delay
+		rjmp buttonTwoPressed       	; Jump to buttonTwoPressed subroutine if the button is released before the
+		                                ; hold loop finishes executing
+		rcall delay                     ; Calls the 10ms delay
 
 		dec R21
 		brne dbLoop2Hold              
 
-	rjmp buttonTwoHeld          ; If the loop completes, the hold subroutine is executed
+	rjmp buttonTwoHeld                      ; If the loop completes, the hold subroutine is executed
 			
 
-	buttonTwoPressed:           ; Subroutine to execute action after the button is released and held loop does not finish
-		sbis PINB, 4                ; Skip next line if I\O register is set (button not pushed)
-		rjmp buttonTwoPressed       ; If the button is still pushed jump back to buttonTwoPressed
-
-		ldi R16, 0b00111111         ; Loads zeroes into both registers
+	buttonTwoPressed:                       ; Subroutine to execute action after the button is released and held loop does not finish
+		sbis PINB, 4                    ; Skip next line if I\O register is set (button not pushed)
+		rjmp buttonTwoPressed           ; If the button is still pushed jump back to buttonTwoPressed
+  
+		ldi R16, 0b00111111             ; Loads zeroes into both registers
 		ldi R18, 0b10111111
-		ldi R19, 0                  ; Sets counting to off
+		ldi R19, 0                      ; Sets counting to off
 
-		rcall display               ; Displays zeroes on the displays
+		rcall display                   ; Displays zeroes on the displays
 		rjmp skipToEnd2
 
-	buttonTwoHeld:					; Subroutine to switch the modes of the timer
+	buttonTwoHeld:				; Subroutine to switch the modes of the timer
 		sbis PINB, 4
-		rjmp buttonTwoHeld          ; Waits until the button is released to execute the action
+		rjmp buttonTwoHeld              ; Waits until the button is released to execute the action
 
-		rcall animation             ; Plays the transition animation
+		rcall animation                 ; Plays the transition animation
 
-		cpi R20, 0                  ; If R20 is clear, set the bit to 1
+		cpi R20, 0                      ; If R20 is clear, set the bit to 1
 		breq setBit2
 
-		ldi R20, 0                  ; Otherwise set R20 equal to 0 and jumps to the subroutine that loads the zeroes to the
-		rjmp twoToOne               ; display with the decimal point
+		ldi R20, 0                      ; Otherwise set R20 equal to 0 and jumps to the subroutine that loads the zeroes to the
+		rjmp twoToOne                   ; display with the decimal point
 
 	setBit2:
-		ldi R20, 1                  ; Sets R20 to 1 and jumps to the subroutine that loads zeroes without the decimal point
-		rjmp oneToTwo               ; to the displays
+		ldi R20, 1                      ; Sets R20 to 1 and jumps to the subroutine that loads zeroes without the decimal point
+		rjmp oneToTwo                   ; to the displays
 
 	oneToTwo:
-		ldi R16, 0b00111111         ; Loads zeroes into both registers without the decimal point in R18
+		ldi R16, 0b00111111             ; Loads zeroes into both registers without the decimal point in R18
 		ldi R18, 0b00111111
 		rjmp pause
 
 	twoToOne:
-		ldi R16, 0b00111111         ; Loads zeroes into both registers with the decimal point in R18
+		ldi R16, 0b00111111             ; Loads zeroes into both registers with the decimal point in R18
 		ldi R18, 0b10111111
 
 	pause:
-		ldi R19, 0                  ; Sets counting to off
+		ldi R19, 0                      ; Sets counting to off
 
 		rcall display
 
-	buttonTwoWait:				    ; Waits until the button is released before returning to the start of the program
+	buttonTwoWait:		                ; Waits until the button is released before returning to the start of the program
 		sbis PINB, 4
 		rjmp buttonTwoWait
 
 	skipToEnd2:
-		rjmp start					; Returns to start of program
+		rjmp start			; Returns to start of program
 
-animation:                      ; Transition animation that plays when the modes are switched
+animation:                                      ; Transition animation that plays when the modes are switched
                              
-	ldi R18, 0b00000000         ; Start of LEDs lighting up across displays
+	ldi R18, 0b00000000                     ; Start of LEDs lighting up across displays
 	ldi R16, 0b00000110
 	rcall display
 	rcall delay_tenth
@@ -500,7 +503,7 @@ animation:                      ; Transition animation that plays when the modes
 	rcall display
 	rcall delay_tenth
 
-	ldi R18, 0b11111111         ; Start of LEDs turning off across the displays
+	ldi R18, 0b11111111                     ; Start of LEDs turning off across the displays
 	ldi R16, 0b00111001
 	rcall display
 	rcall delay_tenth
@@ -533,8 +536,8 @@ animation:                      ; Transition animation that plays when the modes
 
 ; Generate a delay of ~10 ms
 delay:
-	ldi   r23,5                ; 5
-	d1: ldi   r24,79           ; 79
+	ldi   r23,5                    ; 5
+	d1: ldi   r24,79               ; 79
 		d2: ldi   r25,100      ; 100
 			d3: dec   r25
 				nop                
@@ -600,8 +603,8 @@ delay_second_end:
 
 ; Generate a delay of ~1 ms by for the debounce algorithms
 delay_1ms:
-	ldi   r23,5                ; 5
-	d4: ldi   r24,30           ; 30
+	ldi   r23,5                    ; 5
+	d4: ldi   r24,30               ; 30
 		d5: ldi   r25,25       ; 25
 			d6: dec   r25
 				nop                
