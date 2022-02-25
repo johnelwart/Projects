@@ -11,14 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0d3c1f7-9f09-4652-9280-b80d83c6e59c" name="Default Changelist" comment="Re added c++ files after renaming the folder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_3/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/src/CMakeLists.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f0d3c1f7-9f09-4652-9280-b80d83c6e59c" name="Default Changelist" comment="Re added c++ files after renaming the folder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +98,7 @@
       <workItem from="1641781863974" duration="372000" />
       <workItem from="1641782248775" duration="22000" />
       <workItem from="1641782279490" duration="498000" />
+      <workItem from="1645822035337" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="CIE files added to repo">
       <created>1636520305487</created>
