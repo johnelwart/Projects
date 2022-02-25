@@ -1,3 +1,0 @@
-C:/Users/johne/Documents/ProjectsRepo/Projects/CIE Projects/Homework 1/cmake-build-debug/CMakeFiles/Homework_1.dir
-C:/Users/johne/Documents/ProjectsRepo/Projects/CIE Projects/Homework 1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/johne/Documents/ProjectsRepo/Projects/CIE Projects/Homework 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
