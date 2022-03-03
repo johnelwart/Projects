@@ -8,7 +8,7 @@ From Intro to Software Design (ECE 3330) class taken in the Fall of 2021. This c
 From Embedded Systems (ECE 3360) class taken in the Spring of 2022. This class uses Assembly language and projects in this folder are paired with an Arduino and breadboard to create various devices throughout the semester.
 
 ### Computer Architecture Project
-From Computer Architecture & Organization class taken in the Spring of 2022. This class uses Verilog to create a Simple Instruction Set Computer (CISC) processor.
+From Computer Architecture & Organization class taken in the Spring of 2022. This class uses Verilog to create a Simple Instruction Set Computer (SISC) processor.
 
 ### Free Time Projects
 These are projects Ive worked on in my free time either for practice or to learn a new skill. In this folder I have my first Android app that I am playing around with and also Assembly code that I am learning on my own.
