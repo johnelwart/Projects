@@ -1,0 +1,907 @@
+# Break key hit
+# Simulation stop requested.
+restart -f
+quit -sim
+# End time: 14:45:15 on Mar 02,2022, Elapsed time: 0:04:39
+# Errors: 0, Warnings: 0
+vsim -gui work.sisc_tb
+# vsim -gui work.sisc_tb 
+# Start time: 14:45:23 on Mar 02,2022
+# Loading work.sisc_tb
+# Loading work.sisc
+# Loading work.ctrl
+# Loading work.mux4
+# Loading work.rf
+# Loading work.alu
+# Loading work.mux32
+# Loading work.statreg
+add wave -position end  sim:/sisc_tb/tclk
+add wave -position end  sim:/sisc_tb/clk
+add wave -position end  sim:/sisc_tb/rst_f
+add wave -position end  sim:/sisc_tb/ir
+# Load canceled
+run -all
+# IR=00000000 
+# R1=00000000 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=x 
+# 
+# IR=00000000 
+# R1=00000000 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=88100001 
+# R1=00000000 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=88100001 
+# R1=00000000 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=1 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=88100001 
+# R1=00000000 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=3 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=88100001 
+# R1=00000000 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=1 
+# 
+# IR=88100001 
+# R1=00000001 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=80211001 
+# R1=00000001 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=80211001 
+# R1=00000001 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=80211001 
+# R1=00000001 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=80211001 
+# R1=00000001 
+# R2=00000000 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=0 
+# 
+# IR=80211001 
+# R1=00000001 
+# R2=00000002 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=8032200b 
+# R1=00000001 
+# R2=00000002 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=8032200b 
+# R1=00000001 
+# R2=00000002 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=8032200b 
+# R1=00000001 
+# R2=00000002 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=8032200b 
+# R1=00000001 
+# R2=00000002 
+# R3=00000000 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=0 
+# 
+# IR=8032200b 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=80412002 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80412002 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80412002 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80412002 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00000000 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=a 
+# 
+# IR=80412002 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=ffffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=8044300a 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=ffffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=8 
+# 
+# IR=8044300a 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=ffffffff 
+# R5=00000000 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=8 
+# 
+# IR=8044300a 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=ffffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=8 
+# 
+# IR=8044300a 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=ffffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=8 
+# 
+# IR=8044300a 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=8 
+# 
+# IR=80234007 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=80234007 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=80234007 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=80234007 
+# R1=00000001 
+# R2=00000002 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=0 
+# 
+# IR=80234007 
+# R1=00000001 
+# R2=00fffff7 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=80220004 
+# R1=00000001 
+# R2=00fffff7 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80220004 
+# R1=00000001 
+# R2=00fffff7 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80220004 
+# R1=00000001 
+# R2=00fffff7 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80220004 
+# R1=00000001 
+# R2=00fffff7 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=2 
+# 
+# IR=80220004 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80421009 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80421009 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80421009 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80421009 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=00ffffff 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=2 
+# 
+# IR=80421009 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80524005 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80524005 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=00000000 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80524005 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80524005 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=00000000 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=a 
+# 
+# IR=80524005 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80324006 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80324006 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80324006 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80324006 
+# R1=00000001 
+# R2=ff000008 
+# R3=00000008 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=a 
+# 
+# IR=80324006 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=00000000 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=00000000 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=88100001 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=88100001 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=1 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=88100001 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=3 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=88100001 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=1 
+# 
+# IR=88100001 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=80211002 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=0 
+# 
+# IR=80211002 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=80211002 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=80211002 
+# R1=00000001 
+# R2=ff000008 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=1 
+# 
+# IR=80211002 
+# R1=00000001 
+# R2=00000000 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=1 
+# 
+# IR=80201002 
+# R1=00000001 
+# R2=00000000 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80201002 
+# R1=00000001 
+# R2=00000000 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80201002 
+# R1=00000001 
+# R2=00000000 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80201002 
+# R1=00000001 
+# R2=00000000 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=a 
+# 
+# IR=80201002 
+# R1=00000001 
+# R2=ffffffff 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=a 
+# 
+# IR=80311008 
+# R1=00000001 
+# R2=ffffffff 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80311008 
+# R1=00000001 
+# R2=ffffffff 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80311008 
+# R1=00000001 
+# R2=ffffffff 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80311008 
+# R1=00000001 
+# R2=ffffffff 
+# R3=fe000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=2 
+# 
+# IR=80311008 
+# R1=00000001 
+# R2=ffffffff 
+# R3=80000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# IR=80423001 
+# R1=00000001 
+# R2=ffffffff 
+# R3=80000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=9 
+# 
+# IR=80423001 
+# R1=00000001 
+# R2=ffffffff 
+# R3=80000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=0 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=c 
+# 
+# IR=80423001 
+# R1=00000001 
+# R2=ffffffff 
+# R3=80000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=c 
+# 
+# IR=80423001 
+# R1=00000001 
+# R2=ffffffff 
+# R3=80000000 
+# R4=fe000011 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=1 
+# STAT=c 
+# 
+# IR=80423001 
+# R1=00000001 
+# R2=ffffffff 
+# R3=80000000 
+# R4=7fffffff 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=c 
+# 
+# IR=f0000000 
+# R1=00000001 
+# R2=ffffffff 
+# R3=80000000 
+# R4=7fffffff 
+# R5=ff000019 
+# ALU_OP=2 
+# WB_SEL=0 
+# RF_WE=0 
+# STAT=2 
+# 
+# Halt.
+# ** Note: $stop    : I:/Documents/Computer Architecture/Verilog/Project Part 1/ctrl.v(161)
+#    Time: 890 ns  Iteration: 0  Instance: /sisc_tb/uut/cu
+# Break in Module ctrl at I:/Documents/Computer Architecture/Verilog/Project Part 1/ctrl.v line 161
