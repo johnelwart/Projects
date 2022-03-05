@@ -8,40 +8,49 @@ module sisc (clk, rst_f, ir);
 	input clk, rst_f;
 
 // declare all internal wires here
-	wire [31:0] mux32out;	   // mux32 output
+
+	// 32 bit wires
+	wire [31:0] mux32out;	   // Mux32 output
 	wire [31:0] rsa;	       // RSA line running between the register file and ALU
 	wire [31:0] rsb;	       // RSB line running between the register file and ALU
-	wire [31:0] alu_result;	   // output of the ALU that feeds into the zero input of mux32
-	wire [31:0] ir;
-	wire [31:0] im_out;
-
-	wire [15:0] pc_out;
-	wire [15:0] br_addr;
-
-	wire [3:0] mux4out;	       // mux4 output
-	wire [3:0] stat;	       // status output from the ALU that feeds into the status register
-	wire [3:0] srout;	       // output of the status register that feeds into ctrl
-
+	wire [31:0] alu_result;	   // Output of the ALU that feeds into the zero input of mux32
+	wire [31:0] ir;            // Instruction output from the instruction register
+	wire [31:0] im_out;        // The instruction at the address provided by Read_Addr
+	
+	// 16 bit wires
+	wire [15:0] pc_out;        // Current value of the program counter for im and br
+	wire [15:0] br_addr;       // Computed address passed to the program counter
+	
+	// 4 bit wires
+	wire [3:0] mux4out;	       // Mux4 output
+	wire [3:0] stat;	       // Status output from the ALU that feeds into the status register
+	wire [3:0] srout;	       // Output of the status register that feeds into ctrl
+	
+	// 2 bit wire
 	wire [1:0] alu_op;	       // ALU control signal
-
-	wire rf_we;		           // register file write enable control signal
-	wire stat_en;		       // the status register enabling control signal
-	wire wb_sel;		       // select signal for mux32; decides whether to write back zero or the ALU output
-	wire br_sel;
-	wire pc_sel;
-	wire pc_write;
-	wire pc_rst;
-	wire ir_load;
-	wire rb_sel;
+	
+	// 1 bit wires
+	wire rf_we;		           // Register file write enable control signal
+	wire stat_en;		       // The status register enabling control signal
+	wire wb_sel;		       // Select signal for mux32; decides whether to write back zero or the ALU output
+	wire br_sel;               // Controls whether to add the immediate to PC + 1 or 0
+	wire pc_sel;               // Tells the pc to either save the branch or increment the pc
+	wire pc_write;             // Saves the selected value to pc_out until it goes high again
+	wire pc_rst;               // Reset for the program counter
+	wire ir_load;              // When set to 1, IR is loaded with data from IM
+	wire rb_sel;               // Chooses input in the mux
 
 // component instantiation goes here
+
+	// Part 1 components
 	ctrl cu (clk, rst_f, ir[31:28], ir[27:24], srout, rf_we, alu_op, wb_sel, br_sel, pc_rst, pc_write, pc_sel, rb_sel, ir_load);
 	mux4 m4 (ir[15:12], ir[23:20], rb_sel, mux4out);
 	rf regFile (clk, ir[19:16], mux4out, ir[23:20], mux32out, rf_we, rsa, rsb);
 	alu a1 (clk, rsa, rsb, ir[15:0], alu_op, alu_result, stat, stat_en);
 	mux32 m32 (alu_result, 0, wb_sel, mux32out);
 	statreg sr (clk, stat, stat_en, srout);
-	  
+	
+	// Part 2 components
 	br branchLogic (pc_out, ir[15:0], br_sel, br_addr);
 	pc progCount (clk, br_addr, pc_sel, pc_write, pc_rst, pc_out);
 	im instrMem (pc_out, im_out);
