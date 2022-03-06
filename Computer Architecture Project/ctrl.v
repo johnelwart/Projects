@@ -10,7 +10,7 @@ module ctrl (clk, rst_f, opcode, mm, stat, rf_we, alu_op, wb_sel, br_sel, pc_rst
   
   input clk, rst_f;
   input [3:0] opcode, mm, stat;
-  output reg rf_we, wb_sel;
+  output reg rf_we, wb_sel, rb_sel, br_sel, pc_rst, pc_write, pc_sel, ir_load;
   output reg [1:0] alu_op;
   
   // state parameter declarations
@@ -81,10 +81,19 @@ module ctrl (clk, rst_f, opcode, mm, stat, rf_we, alu_op, wb_sel, br_sel, pc_rst
   begin
 
   /* Put your default assignments for wb_sel, rf_we, and alu_op here.  */
+  
     wb_sel <= 1'b0;
     rf_we <= 1'b0;
     alu_op <= 2'b10;
-
+	
+  // Added default assignments for br_sel, pc_rst, pc_write, pc_sel, ir_load, rb_sel.
+	br_sel <= 1'b0
+	pc_rst <= 1'b0
+	pc_write <= 1'b0
+	pc_sel <= 1'b0
+	ir_load <= 1'b0
+	rb_sel <= 1'b0
+	
     case(present_state)
 
       execute:

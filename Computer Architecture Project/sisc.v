@@ -59,7 +59,7 @@ module sisc (clk, rst_f, ir);
 	initial
   
 // put a $monitor statement here.  
-	$monitor("IR=%h \nR1=%h \nR2=%h \nR3=%h \nR4=%h \nR5=%h \nALU_OP=%h \nWB_SEL=%h \nRF_WE=%h \nSTAT=%h \n",ir,regFile.ram_array[1],regFile.ram_array[2],regFile.ram_array[3],regFile.ram_array[4],regFile.ram_array[5],alu_op,wb_sel,rf_we,stat);
+	$monitor("IR=%h \nPC=%h \nR1=%h \nR2=%h \nR3=%h \nR4=%h \nR5=%h \nALU_OP=%h \nBR_SEL=%h \nPC_WRITE=%h \nPC_SEL=%h \n",ir,regFile.ram_array[1],regFile.ram_array[2],regFile.ram_array[3],regFile.ram_array[4],regFile.ram_array[5],alu_op,wb_sel,rf_we,stat);
 
 
 endmodule
