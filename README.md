@@ -1,4 +1,3 @@
-# Classes
 ### CIE Projects
 From Computers in Engineering (ENGR 2730) taken in the Spring of 2021. This class used C++ and all the projects saved in this folder are homework assignments for the class. Other classes that have used C++ have been Computer Science 1 (CSC 121) and Computer Science 2 (CSC 122) taken at McHenry County College.
 
