@@ -87,29 +87,42 @@ module ctrl (clk, rst_f, opcode, mm, stat, rf_we, alu_op, wb_sel, br_sel, pc_rst
     alu_op <= 2'b10;
 	
   // Added default assignments for br_sel, pc_rst, pc_write, pc_sel, ir_load, rb_sel.
-	br_sel <= 1'b0;
-	pc_rst <= 1'b0;
-	pc_write <= 1'b0;
-	pc_sel <= 1'b0;
-	ir_load <= 1'b0;
-	rb_sel <= 1'b0;
+    br_sel <= 1'b0;
+    pc_rst <= 1'b0;
+    pc_write <= 1'b0;
+    pc_sel <= 1'b0;
+    ir_load <= 1'b0;
+    rb_sel <= 1'b0;
 	
     case(present_state)
+      start1:
+      begin
+        pc_rst <= 1'b1;
+      end
+
       fetch:
       begin
-	pc_write <= 0;
-	ir_load <= 1;
+	pc_write <= 1;		// increment pc
+	ir_load <= 1;		// load ir
       end
 
       decode:
       begin
+
+	pc_write <= 0;
+	ir_load <= 0;
+
  	if(opcode == BRA)
 	begin
 	  if((mm & stat) != 0)
 	  begin
+	  	pc_write <= 1'b1;
 	  	pc_sel <= 1'b1;	// save branch address to PC
 	  	br_sel <= 1'b1;	// absolute branch, add offset to 0
-	  	pc_write <= 1'b1;
+	  end
+	  else
+	  begin
+		pc_sel <= 1'b0;
 	  end
 	end
 
@@ -117,9 +130,13 @@ module ctrl (clk, rst_f, opcode, mm, stat, rf_we, alu_op, wb_sel, br_sel, pc_rst
 	begin
 	  if((mm & stat) != 0)
 	  begin
+	  	pc_write <= 1'b1;
 	  	pc_sel <= 1'b1;	// save branch address to PC
 	  	br_sel <= 1'b0;	// relative branch (add offset to PC+1)
-	  	pc_write <= 1'b1;
+	  end
+	  else
+	  begin
+		pc_sel <= 1'b0;
 	  end
 	end
 
@@ -127,20 +144,28 @@ module ctrl (clk, rst_f, opcode, mm, stat, rf_we, alu_op, wb_sel, br_sel, pc_rst
 	begin 
 	  if((mm & stat) == 0)
           begin
+	  	pc_write <= 1'b1;
 	  	pc_sel <= 1'b1;	// save branch address to PC
 	  	br_sel <= 1'b1;	// absolute branch, add offset to 0
-	  	pc_write <= 1'b1;
           end
+	  else
+	  begin
+		pc_sel <= 1'b0;
+	  end
 	end
 
 	else if(opcode == BNR)
 	begin
 	  if((mm & stat) == 0)
           begin
+	  	pc_write <= 1'b1;
 	  	pc_sel <= 1'b1;	// save branch address to PC
 	  	br_sel <= 1'b0;	// relative branch (add offset to PC+1)
-	  	pc_write <= 1'b1;
           end
+	  else
+	  begin
+		pc_sel <= 1'b0;
+	  end
 	end
       end
 
@@ -202,6 +227,13 @@ module ctrl (clk, rst_f, opcode, mm, stat, rf_we, alu_op, wb_sel, br_sel, pc_rst
         wb_sel <= 1'b0;
         rf_we <= 1'b0;
         alu_op <= 2'b10;
+
+        br_sel <= 1'b0;
+	pc_rst <= 1'b0;
+	pc_write <= 1'b0;
+	pc_sel <= 1'b0;
+	ir_load <= 1'b0;
+	rb_sel <= 1'b0;
 
       end
     endcase
