@@ -16,10 +16,12 @@ module sisc (clk, rst_f);
 	wire [31:0] alu_result;	   // Output of the ALU that feeds into the zero input of mux32
 	wire [31:0] ir;            // Instruction output from the instruction register
 	wire [31:0] im_out;        // The instruction at the address provided by Read_Addr
+	wire [31:0] dm_out;
 	
 	// 16 bit wires
 	wire [15:0] pc_out;        // Current value of the program counter for im and br
 	wire [15:0] br_addr;       // Computed address passed to the program counter
+	wire [15:0] mux16out;
 	
 	// 4 bit wires
 	wire [3:0] mux4out;	       // Mux4 output
@@ -39,6 +41,8 @@ module sisc (clk, rst_f);
 	wire pc_rst;               // Reset for the program counter
 	wire ir_load;              // When set to 1, IR is loaded with data from IM
 	wire rb_sel;               // Chooses input in the mux
+	wire mm_sel;
+	wire dm_we;
 
 // component instantiation goes here
 
@@ -47,7 +51,7 @@ module sisc (clk, rst_f);
 	mux4 m4 (ir[15:12], ir[23:20], rb_sel, mux4out);
 	rf regFile (clk, ir[19:16], mux4out, ir[23:20], mux32out, rf_we, rsa, rsb);
 	alu a1 (clk, rsa, rsb, ir[15:0], alu_op, alu_result, stat, stat_en);
-	mux32 m32 (alu_result, 0, wb_sel, mux32out);
+	mux32 m32 (alu_result, dm_out, wb_sel, mux32out);
 	statreg sr (clk, stat, stat_en, srout);
 	
 	// Part 2 components
@@ -55,6 +59,10 @@ module sisc (clk, rst_f);
 	pc progCount (clk, br_addr, pc_sel, pc_write, pc_rst, pc_out);
 	im instrMem (pc_out, im_out);
 	ir instrReg (clk, ir_load, im_out, ir);
+	
+	// Part 3 components
+	dm d1 (mux16out, mux16out, rsb, dm_we, dm_out);
+	mux16 m16 (alu_result, ir[15:0], mux16out);
 
 	initial
   

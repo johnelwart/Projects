@@ -1,0 +1,10 @@
+// ECE:3350 SISC processor project
+// Example data for the multiplication program
+//
+87654321 // :0  A
+9ABCDEF0 // :1  B
+00000000 // :2  Addresses 2 & 3 are where the 64-bit result A*B should be stored
+00000000 // :3  LSW in 2, MSW in 3
+//
+// final result should be 51D6CEA7 E5618CF0
+//
