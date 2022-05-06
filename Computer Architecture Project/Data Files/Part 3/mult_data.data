@@ -5,6 +5,12 @@
 9ABCDEF0 // :1  B
 00000000 // :2  Addresses 2 & 3 are where the 64-bit result A*B should be stored
 00000000 // :3  LSW in 2, MSW in 3
+00000020 // :4  Loop Counter
+00000000 // :5
+00000000 // :6
+00000001 // :7  Constant 1
+00000010 // :8  Constant 16
+00000000 // :9
 //
 // final result should be 51D6CEA7 E5618CF0
 //

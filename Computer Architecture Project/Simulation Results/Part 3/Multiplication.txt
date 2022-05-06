@@ -1,0 +1,97 @@
+; #0 - Multiplicand - R1
+; #1 - Multiplier   - R2
+; #2 - Result low   - R3
+; #3 - Result high  - R4
+; #4 - Loop Counter - R5
+;      Carry        - R6
+;      Temp reg     - R7
+;      Const one    - R8
+;      Const 16     - R9
+
+; Loading memory values into registers and initialzing any values
+00   LDA R1, #0000                           ; Load multiplicand into R1
+01   LDA R2, #0001                           ; Load multiplier into R2
+02   LDA R3, #0001                           ; Load the multiplier into result low
+03   LDA R5, #0004                           ; Load the loop counter (32) into R5
+04   LDA R8, #0007                           ; Load a one into R8 to make it a constant
+05   LDA R9, #0008                           ; Load a sixteen into R9 to make it constant
+
+; Check if the LSB of the multiplier 
+checkLSB:
+06   AND R7, R3, R8                          ; Apply an and to the result low to mask the LSB
+07   SUB R7, R7, R8                          ; Subtract one from that result to test the LSB value
+08   BRA 0b0001, addStart                    ; If the zero bit of the stat reg is set branch to addStart
+09   BNE 0b0000, startShift                  ; If addition is not needed, branch to startShift
+
+; If addition is needed, add the multiplicand and result high and store in result high and check for carry
+addStart:
+0A   ADD R4, R4, R1                          ; Add the result high and multiplicand, store in result high
+0B   BRA 0b1000, addCarry                    ; If the carry bit in stat is set, branch to add carry
+0C   BNE 0b0000, startShift                  ; If the carry bit is not set, branch to start shift
+
+; If there is carry from the previous addition operation, add one to the carry bit
+addCarry:
+0D   ADD R6, R6, R8                          ; Add one to the carry bit
+0E   BNE 0b0000, startShift                  ; Branch to startShift after setting the carry bit
+
+; Begin shifting the result high and result low registers right one bit
+startShift:
+0F   AND R7, R4, R8                          ; And the result high to mask the LSB
+10   SUB R7, R7, R8                          ; Subtract one from that result to test the LSB value
+11   BRA 0b0001, carryOver                   ; If the zero bit of the stat reg is set branch to carryOver
+12   BNE 0b0000, noCarryOver                 ; Otherwise branch to noCarryOver
+
+; Begin shifting the result high and result low when there is a carryover from the LSB to the MSB
+carryOver:
+13   SHR R4, R4, R8                          ; Shift the result high right one and store back in result high
+14   SUB R7, R6, R8                          ; Subtract one from the carry register to test for a carry
+15   BRA 0b0001, carry1                      ; If there the zero stat bit is set, branch to carry1
+16   BNE 0b0000, addCarryOver                ; Otherwise branch to addCarryOver
+
+; If there is a carry bit add that to the MSB of result high and then clear the carry bit
+carry1:
+17   ADD R7, R0, R0                          ; Clear the temporary register
+18   ADI R7, R7, 0x8000                      ; Add 0x8000 into the temp register to make a 32 bit number
+19   SHL R7, R7, R9                          ; Shift the value of R7 to the left 16 to make a 32 bit number
+1A   ADD R4, R4, R7                          ; Add 1 to the MSB of result high
+1B   ADD R6, R0, R0                          ; Clear the carry bit
+1C   BNE 0b0000, addCarryOver                ; Branch to addCarryOver after completing this process
+
+; Shift the result low right and add one to the MSB representing the LSB from the result high being shifted over
+addCarryOver:
+1D   SHR R3, R3, R8                          ; Shift the result low right one and store in result low
+1E   ADD R7, R0, R0                          ; Clear the temporary register
+1F   ADI R7, R7, 0x8000                      ; Add 0x8000 into the temp register
+20   SHL R7, R7, R9                          ; Shift the value in R7 left 16 bits
+21   ADD R3, R3, R7                          ; Add one to the MSB of result low
+22   BNE 0b0000, end                         ; Branch to end
+
+; If the zero bit of cc and status register from startShift is not set, shift normally but dont add one at the end
+noCarryOver:
+23   SHR R4, R4, R8                          ; Shift result high right one and store in result high
+24   SUB R7, R6, R8                          ; Subtract one from the carry register to test for a zero bit in the stat reg
+25   BRA 0b0001, carry2                      ; If the zero bit is set, branch to carry2
+26   BNE 0b0000, finish                      ; If not, branch to finish
+
+; If there is a one in the carry bit, add one to the MSB of result high to represnt the carry being shifted over
+carry2:
+27   ADD R7, R0, R0                          ; Clear the temporary register
+28   ADI R7, R7, 0x8000                      ; Add 0x8000 into the temp register
+29   SHL R7, R7, R9                          ; Shift the value of R7 left 16 bits
+2A   ADD R4, R4, R7                          ; Add one to the MSB of result high
+2B   ADD R6, R0, R0                          ; Clear the carry bit
+2C   BNE 0b0000, finish                      ; Branch to finish to finish the shifting
+
+; Finish by shifting the result low right one without adding one to the MSB
+finish:
+2D   SHR R3, R3, R8                          ; Shift result low right one and store in result low
+2E   BNE 0b0000, end                         ; Branch to the decrement stage
+
+; Decrement the loop counter and check if the counter is equal to 0 meaning the loop is over
+end:
+2F   ADD R7, R0, R0                          ; Clear the temp register before going through another cycle
+30   ADI R5, R5, 0xFFFF                      ; Decrement the counter
+31   BNE 0b0001, checkLSB                    ; If the zero bit of the stat reg is not set, branch back to the beginning of the program (chckLSB) 
+32   STA R4, #0003                           ; Store the result high register to memory location 3
+33   STA R3, #0002                           ; Store the result low register to memory location 2
+34   HLT                                     ; End the execution of the program

@@ -184,7 +184,7 @@ void menuScreenFunc(void) {
 	int screenNum = 0;		// Indicates how far the user has scrolled
 	int input = 0;			// Looping variable; controls the inner while-loop
 	long iterations = 0;	// Counter for automatic re-lock
-	long maxIterations = (33783.78 * inactivitySeconds);
+	long maxIterations = (28860.03 * inactivitySeconds);
 	
 	// Clear the LCD and set the cursor home
 	lcd_clrscr();

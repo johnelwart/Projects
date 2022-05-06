@@ -1,0 +1,53 @@
+10100000  // 00
+10200001  // 01
+10300001  // 02
+10500004  // 03
+10800007  // 04
+10900008  // 05
+80738006  // 06  checkLSB
+80778002  // 07
+4100000A  // 08               to addStart
+6000000F  // 09               to startShift
+80441001  // 0A  addStart
+4800000D  // 0B               to addCarry
+6000000F  // 0C               to startShift
+80668001  // 0D  addCarry
+6000000F  // 0E               to startShift
+80748006  // 0F  startShift
+80778002  // 10
+41000013  // 11               to carryOver
+60000023  // 12               to noCarryOver
+8044800A  // 13  carryOver
+80768002  // 14
+41000017  // 15               to carry1
+6000001D  // 16               to addCarryOver
+80700001  // 17  carry1
+88778000  // 18
+8077900B  // 19
+80447001  // 1A
+80600001  // 1B
+6000001D  // 1C               to addCarryOver
+8033800A  // 1D  addCarryOver
+80700001  // 1E
+88778000  // 1F
+8077900B  // 20
+80337001  // 21
+6000002F  // 22               to end
+8044800A  // 23  noCarryOver
+80768002  // 24
+41000027  // 25               to carry2
+6000002D  // 26               to finish
+80700001  // 27  carry2
+88778000  // 28
+8077900B  // 29
+80447001  // 2A
+80600001  // 2B
+6000002D  // 2C               to finish
+8033800A  // 2D  finish
+6000002F  // 2E               to end
+80700001  // 2F  end
+8855FFFF  // 30
+61000006  // 31               to checkLSB
+20400003  // 32
+30300002  // 33
+F0000000  // 34               Halt
