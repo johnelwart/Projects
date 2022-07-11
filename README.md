@@ -17,3 +17,5 @@ These are projects Ive worked on in my free time either for practice or to learn
 Most of these projects are created by me with a few exceptions. In the CIE folder some of the homeworks, specifically the GUI ones, have code that was provided to us to work off of. Also in the Computer Architecture folder the Verilog files were provided to us and the individual component and test bench files were not changed during the course of the project. The only files that were modified were the sisc.v and ctrl.v files.
 
 The software design and embedded systems projects have a dedicated wiki page for each project that explains the project in more detail. Some of the descriptions of the projects were not written by me and those descriptions are marked at the beginning.
+
+Some of the titles of the files are not very descriptive of what they do, for explanations on what they are, check the wiki page.
