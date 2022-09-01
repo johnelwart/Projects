@@ -1,0 +1,6 @@
+Estel,F,5
+Doreen,F,10
+Maggie,F,10
+Jack,M,10
+John,M,13
+Tim,M,13
