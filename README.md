@@ -22,6 +22,6 @@ These are projects Ive worked on in my free time either for practice or to learn
   - In the Computer Architecture folder the Verilog files were provided to us and the individual component and test bench files were not changed during the course of the       project. The only files that were modified were the sisc.v and ctrl.v files.
   - In the CS1 folder some of the assignments or labs had test programs that went along with them. Those test programs were created by the instructor.
 
-- The software design and embedded systems projects have a dedicated wiki page for each project that explains the project in more detail. Some of the descriptions of the projects were not written by me and those descriptions are marked at the beginning.
+- The software design, embedded systems, and senior design projects have a dedicated wiki page for each project that explains the project in more detail. Some of the descriptions of the projects were not written by me and those descriptions are marked at the beginning.
 
 - Some of the titles of the files are not very descriptive of what they do, for explanations on what they are, check the wiki page.
