@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>About John Elwart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            display:table;
+            height:auto;
+            background-color: #404040;
+            margin:10px 0px;
+        }
+        .container .text {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+            padding-left: 3%;
+            padding-right: 3%;
+            color: rgb(255, 255, 255);
+            font-size: 19pt;
+            line-height: 2;
+        }
+        .container img {
+            display:block;
+            float:right;
+            height: 500px;
+            width: 500px;
+            object-fit: cover;
+        }
+        .container .clear {
+            clear:both;
+        }
+        .container1 {
+            display: table;
+            width:100%;
+            height: auto;
+            background-color: #404040;
+            margin: 10px 0px;
+        }
+        .container1 .text {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+            padding-left: 3%;
+            padding-right: 3%;
+            color: rgb(255, 255, 255);
+            font-size: 19pt;
+            line-height: 2;
+        }
+        .container1 img {
+            display: block;
+            float: left;
+            height: 500px;
+            width: 500px;
+            object-fit: cover;
+            object-position: 0% 40%;
+        }
+        .container1 .clear {
+            clear: both;
+        }
+        .container2 {
+            display: table;
+            width:100%;
+            height: auto;
+            background-color: #404040;
+            margin: 10px 0px;
+        }
+        .container2 .text {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+            padding-left: 3%;
+            padding-right: 3%;
+            color: rgb(255, 255, 255);
+            font-size: 19pt;
+            line-height: 2;
+        }
+        .container2 img {
+            display: block;
+            float: right;
+            height: 500px;
+            width: 500px;
+            object-fit: cover;
+            object-position: 0% 40%;
+        }
+        .container2 .clear {
+            clear: both;
+        }
+        .body {
+            background-color: #282828;
+        }
+    </style>
+</head>    
+<body class="body">
+<section class="johnheader">
+    <nav>
+        <a href="home.html"><img src="./images/logo.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="text-box">
+        <h1>About John Elwart</h1>
+        <br>
+        <h2>Hometown: Crystal Lake, Illinois</h2>
+        <h2>Major: Computer Science and Engineering</h2>
+        <h2>Interests: Cars, Electronics, Fitness, Video Games</h2>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="text">
+            To the right is a picture of my family on our first boat 
+            in Door County, Wisconsin. In the back left is my Dad, back right is me,
+            front left is my younger sister Kaitlyn, and front right is my Mom. We go up
+            to Door County every summer and camp in a state park on the water for a week.
+        </div>
+        <img src="./images/johnfamily.jpg"/>
+        <div class="clear"></div>
+    </div>
+</section>
+<section>
+    <div class="container1">
+        <img src="./images/johnboat.jpg"/>
+        <div class="text">
+            To the left is our brand new boat we got one year ago. It is a Cobalt R3. It measures in
+            at 24 feet in length and has a big V8 to bring it to its top speed of 54 mph. In the
+            picture it is docked at a restaraunt on the Chain O Lakes in Illinois where it is kept.
+            The Chain is a system of 15 lakes that begin at the Illinois/Wisconsin border and ends at the Fox River
+            which, if you follow it long enough, flows into the Illinois River which then flows into the
+            Mississippi River.
+        </div>
+        <div class="clear"></div>
+    </div>
+</section>
+<section>
+    <div class="container2">
+        <div class="text">
+            To the right is a group picture of most of my friends. From left to right is Justin, Dalton, me, Marshall, Noelle, and Pamela.
+            I meet them all last year in class since we are all the same major. Im so glad I was able to make such amazing friends after the
+            previous ywar not meeting many people after I transferred in to the University during COVID lockdowns.
+        </div>
+        <img src="./images/johnfriends.jpg"/>
+        <div class="clear"></div>
+    </div>
+</section>
+<section class="comment">
+    <div class="commentbox"></div>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>commentBox('5659520256704512-proj')</script>
+</section>
+</body>
+</html>

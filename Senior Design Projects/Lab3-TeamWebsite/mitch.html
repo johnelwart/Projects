@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>About Mitch Larson</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            display:table;
+            width:100%;
+            height:auto;
+            background-image: linear-gradient(to right top, #6f8faf, #6088b3, #5281b8, #447abc, #3872bf);
+            margin: 10px 0px;
+        }
+        .container .text {
+            display: table-cell;
+            height:100%;
+            vertical-align:middle;
+            padding-left: 3%;
+            padding-right: 3%;
+            color: white;
+            font-size: 15pt;
+            line-height: 2;
+        }
+        .container img {
+            display:block;
+            float:right;
+            height: 500px;
+            width: 500px;
+            object-fit: cover;
+            object-position: 10% 0%;
+        }
+        .container .clear {
+            clear:both;
+        }
+        .container1 {
+            display: table;
+            width:100%;
+            height: auto;
+            background-image: linear-gradient(to right top, #6f8faf, #6088b3, #5281b8, #447abc, #3872bf);
+            margin: 10px 0px;
+        }
+        .container1 .text {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+            padding-left: 3%;
+            padding-right: 3%;
+            color: white;
+            font-size: 15pt;
+            line-height: 2;
+        }
+        .container1 img {
+            display: block;
+            float: left;
+            height: 500px;
+            width: 500px;
+            object-fit: cover;
+            object-position: 0% 20%;
+        }
+        .container1 .clear {
+            clear: both;
+        }
+        .container2 {
+            display: table;
+            width:100%;
+            height: auto;
+            background-image: linear-gradient(to right top, #6f8faf, #6088b3, #5281b8, #447abc, #3872bf);
+            margin: 10px 0px;
+        }        
+        .container2 .text {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+            padding-left: 3%;
+            padding-right: 3%;
+            color: white;
+            font-size: 15pt;
+            line-height: 2;
+        }
+        .container2 img {
+            display: block;
+            float: right;
+            height: 500px;
+            width: 500px;
+            object-fit: cover;
+            object-position: 0% 60%;
+        }
+        .container2 .clear {
+            clear: both;
+        }
+    </style>
+</head>    
+<body>
+<section class="mitchheader">
+    <nav>
+        <a href="home.html"><img src="./images/logo.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul> 
+        </div>
+    </nav>
+    <div class="text-box">
+        <h1>Howdy, I'm Mitch</h1>
+        <br>
+        <h2>Hometown: Long Grove, Iowa</h2>
+        <h2>Major: Electrical Engineering, Math Minor</h2>
+        <h2>Interests: Boating, fishing, hunting, snowmobiling</h2>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="text">
+            One of my favorite hobbies is boating and fishing. Over the past few years I have enjoyed 
+            fixing up a variety of boat motors, finding new fishing spots, and taking a nice long cruise 
+            on my boat. Being out on the water is something I have always found so much joy in, so its 
+            safe to say that when the weather permits, I'll be on the water.
+        </div>
+        <img src="./images/LarsonBoat.jpg"/>
+        <div class="clear"></div>
+    </div>
+</section>
+<section>
+    <div class="container1">
+        <img src="./images/LarsonSnowmobile.jpg"/>
+        <div class="text">
+            When it is too cold for boating, I enjoy snowmobiling. Every year, a group of us guys travel
+            far up north to the Upper Peninsula of Michigan to a small logging town named Seney. We travel
+            hundreds of miles by snowmobile, enjoying the deep powdery backcountry, freshly groomed trails 
+            and Great Lake views. Along with Michigan, trips are planned to Wisconsin and even out west to 
+            Colorado or Wyoming.
+        </div>
+        <div class="clear"></div>
+    </div>
+</section>
+<section>
+    <div class="container2">
+        <div class="text">
+            Time spent with family is something I value and enjoy dearly. Whether its a small dinner or a large
+            gathering, I love being around my family. I recently proposed to my girlfriend of 4 years and will be 
+            married late next year! Along with family, comes my friends, who I also enjoy spending time with and 
+            continue to make wonderful memories with. 
+        </div>
+        <img src="./images/LarsonEngagement.JPG"/>
+        <div class="clear"></div>
+    </div>
+</section>
+
+<section class="comment">
+    <div class="commentbox"></div>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>commentBox('5659520256704512-proj')</script>
+</section>
+</body>
+</html>

@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/* background image */
+.header{
+    background-image: url('./images/homepage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.aboutheader{
+    background-image: url('./images/iowabackground.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+/* personal page headers */
+.isaacheader{
+    background-image: url('./images/majesticphotoofme.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    
+}
+.johnheader{
+    background-image: url('./images/sunset.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.pamelaheader{
+    background-color: rgb(41, 116, 129);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.mitchheader{
+    background-image: url('./images/LarsonMountain2.jpg');
+    background-position: 0% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo image in corner */
+nav img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2% 2%;
+    filter: invert(100%);
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+/* color and font of 'HOME' and 'ABOUT' on nav bar */
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* bottom line that appears under 'HOME' and 'ABOUT' on nav bar */
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f5dfae;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+/* have bottom line appear only if you hover over 'HOME' or 'ABOUT' on nav bar */
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.nav-links-isaac{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links-isaac ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+/* color and font of 'HOME' and 'ABOUT' on nav bar */
+.nav-links-isaac ul li a{
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+    font-size: 16px;
+}
+/* bottom line that appears under 'HOME' and 'ABOUT' on nav bar */
+.nav-links-isaac ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #0d0d0d;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+/* have bottom line appear only if you hover over 'HOME' or 'ABOUT' on nav bar */
+.nav-links-isaac ul li:hover::after{
+    width: 100%;
+}
+/* text to display on homepage (Team Binary Beasts) */
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(-8%, -8%);
+}
+/* modifications for the title (Team Binary Beasts) */
+.text-box h1{
+    font-size: 64px;
+}
+/* making the button to 'Learn More' look like an actual button and not just a hyperlink */
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/* creating an effect to change color of button when you hover the mouse over it */
+.hero-btn:hover{
+    border: 1px solid #f5f0ae;
+    background: #f5dfae;
+    transition: 1s;
+}
+/* section on homepage about each team member ('Meet the Team') */
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+/* adding extra space between "Meet the Team" text and the team member photos */
+.space{
+    width: 20%;
+    padding-top: 30px;
+}
+/* gallery row of team members*/
+.isaac{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.isaac img{
+    width: 100%;
+}
+.john{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.john img{
+    width: 100%;
+}
+.pamela{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pamela img{
+    width: 100%;
+}
+.mitch{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mitch img{
+    width: 100%;
+}
+/* adding space between each team member's photo */
+.pfp {
+    margin: 0 10px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.icons .fa{
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 18px 0;
+    color: black;
+}
+/* section for comment box */
+.comment{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+/* formatting the comment box */
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+/* formatting the fields inside the comment box */
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment-form button{
+    margin: 10px 0;
+}
+/* making the button for comment section */
+.hero-btn-comment{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/* creating an effect to change color of button when you hover the mouse over it */
+.hero-btn-comment:hover{
+    border: 1px solid #ccccc5;
+    background: #ccccc5;
+    transition: 1s;
+}
