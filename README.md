@@ -13,6 +13,9 @@ From Computer Architecture & Organization (ECE 3350) class taken in the Spring o
 ### CS1 Programs
 From Computer Science 1: Fundamentals (CS:1210) class taken in the Summer of 2022. This class uses python and the programs in this folder are either lab assignments from the discussion section of this class or weekly homework assignments.
 
+### Senior Design Projects
+From Principles of ECE Design (ECE:4880) class taken in the Fall of 2022. For thos class we used a variety of languages for the 3 projects including HTML/CSS, C++, and Java. 
+
 ### Free Time Projects
 These are projects Ive worked on in my free time either for practice or to learn a new skill. In this folder I have my first Android app that I am playing around with and also Assembly code that I am learning on my own.
 
