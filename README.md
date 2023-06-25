@@ -2,19 +2,22 @@
 From Computers in Engineering (ENGR 2730) taken in the Spring of 2021. This class used C++ and all the programs saved in this folder are homework assignments for the class. Other classes that have used C++ have been Computer Science 1 (CSC 121) and Computer Science 2 (CSC 122) taken at McHenry County College.
 
 ### SWD Projects
-From Intro to Software Design (ECE 3330) class taken in the Fall of 2021. This class uses Java and the projects in this folder were made for the oral exams or for the team project done at the end of the semester. Other classes that have used the Java language have been Computer Science 2: Data Structures (CS 2230) taken at University of Iowa.
+From Intro to Software Design (ECE 3330) taken in the Fall of 2021. This class uses Java and the projects in this folder were made for the oral exams or for the team project done at the end of the semester. Other classes that have used the Java language have been Computer Science 2: Data Structures (CS 2230) taken at University of Iowa.
 
 ### Embedded Systems Projects
-From Embedded Systems (ECE 3360) class taken in the Spring of 2022. This class uses Assembly language and C. Projects in this folder are paired with an Arduino and breadboard to create various devices throughout the semester.
+From Embedded Systems (ECE 3360) taken in the Spring of 2022. This class uses Assembly language and C. Projects in this folder are paired with an Arduino and breadboard to create various devices throughout the semester.
 
 ### Computer Architecture Project
-From Computer Architecture & Organization (ECE 3350) class taken in the Spring of 2022. This class uses Verilog to create a Simple Instruction Set Computer (SISC) processor.
+From Computer Architecture & Organization (ECE 3350) taken in the Spring of 2022. This class uses Verilog to create a Simple Instruction Set Computer (SISC) processor.
 
 ### CS1 Programs
-From Computer Science 1: Fundamentals (CS:1210) class taken in the Summer of 2022. This class uses python and the programs in this folder are either lab assignments from the discussion section of this class or weekly homework assignments.
+From Computer Science 1: Fundamentals (CS:1210) taken in the Summer of 2022. This class uses python and the programs in this folder are either lab assignments from the discussion section of this class or weekly homework assignments.
 
 ### Senior Design Projects
-From Principles of ECE Design (ECE:4880) class taken in the Fall of 2022. For this class we used a variety of languages for the 3 projects including HTML/CSS, C++, and Java. 
+From Principles of ECE Design (ECE:4880) taken in the Fall of 2022. For this class we used a variety of languages for the 3 projects including HTML/CSS, C++, and Java.
+
+### Senior Capstone Project
+From Senior Electrical and Computer Engineering Design (ECE:4890) taken in the Spring of 2023. Like ECE:4880, we used a variety of languages including C++, Python, and HTML/CSS.
 
 ### Free Time Projects
 These are projects Ive worked on in my free time either for practice or to learn a new skill. In this folder I have my first Android app that I am playing around with and also Assembly code that I am learning on my own.
